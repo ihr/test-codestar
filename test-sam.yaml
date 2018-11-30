@@ -17,6 +17,7 @@ Resources:
         Statement:
           - Action:
               - 'codepipeline:*'
+              - 'lambda:ListFunctions'
               - 'logs:*'
             Effect: Allow
             Resource: '*'
